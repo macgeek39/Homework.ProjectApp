@@ -26,7 +26,7 @@ if ( lowerFirstName == "bob" || lowerFirstName == "sue")
 {
     Console.WriteLine($"Welcome Professor {lowerFirstName}!");
 }
-else if ( age <= 21 )
+else if ( age < 21 )
 {
     Console.WriteLine($"We recommend to wait {21 - age} more years to start this class.");
 }
